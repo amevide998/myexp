@@ -16,12 +16,12 @@ const swaggerDefinition = {
             url: 'https://jsonplaceholder.typicode.com',
         },
     },
-    servers: [
-        {
-            url: 'http://localhost:3000',
-            description: 'Development server',
-        },
-    ],
+    // servers: [
+    //     {
+    //         url: 'http://localhost:3000',
+    //         description: 'Development server',
+    //     },
+    // ],
 };
 const options = {
     swaggerDefinition,
